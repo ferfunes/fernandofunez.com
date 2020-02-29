@@ -1,38 +1,130 @@
-.App {
+/**************** Background Image *******************/
+.wrapper {
   text-align: center;
+  //background-image: url("https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg");
+  background: black;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/**************** Text Lines *******************/
+.text-cont {
+  font-size: 30px;
+  font-weight: 300;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.f-style1 {
+  font-family: "Roboto";
+}
+.f-style2 {
+  font-family: "Indie Flower";
+}
+.f-style3 {
+  font-family: "Oxanium";
+}
+.f-style4 {
+  font-family: "Spartan";
+}
+.f-style5 {
+  font-family: "Reenie Beanie";
+}
+.f-style6 {
+  font-family: "Lacquer";
+}
+.f-style7 {
+  font-family: "Satisfy";
+}
+.f-style8 {
+  font-family: "Anton";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.portfolio-word {
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+.skills-word {
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+  border: solid white 1px;
+  padding: 2px;
+}
+.resume-word {
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+.contact-word {
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+
+/**************** Portfolio - flip card *******************/
+.portfolio-cont {
+  //margin-top: 50px;
+}
+
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+/**************** Footer *******************/
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+}
+
+.icon {
+  color: white;
+}
+.footer-copyright {
+  color: white;
+}
+
+/* @media only screen and (max-width: 750px) {
+  .wrapper {
+    height: 500px;
+    width: 100%;
   }
 }
+
+@media only screen and (max-width: 100px) {
+  .wrapper {
+    height: 200px;
+    width: 420px;
+  }
+} */
