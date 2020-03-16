@@ -5,12 +5,12 @@ import { Skills } from "../components/skills.js";
 import { Resume } from "../components/resume.js";
 import { Contact } from "../components/contact.js";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 export const App = () => {
   return (
     <div className="container-fluid">
-      <Router>
+      <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/Portfolio" component={Portfolio} />
@@ -18,7 +18,7 @@ export const App = () => {
           <Route path="/Resume" component={Resume} />
           <Route path="/Contact" component={Contact} />
         </Switch>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 };

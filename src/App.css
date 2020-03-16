@@ -1,14 +1,6 @@
-/**************** Background Image *******************/
-.wrapper {
-  text-align: center;
-  //background-image: url("https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg");
-  background: black;
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 60px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /**************** Text Lines *******************/
@@ -16,10 +8,16 @@
   font-size: 30px;
   font-weight: 300;
   color: white;
+  background: black;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
 
 .f-style1 {
-  font-family: "Roboto";
+  font-family: "Bungee Inline";
 }
 .f-style2 {
   font-family: "Indie Flower";
@@ -66,17 +64,22 @@
   color: white;
 }
 
-/**************** Portfolio - flip card *******************/
-.portfolio-cont {
-  //margin-top: 50px;
+.welcome {
+  font-size: 60px;
+  margin-bottom: 40px;
+  margin-top: -90px;
+  font-family: "Monoton";
+  word-spacing: 20px;
+  color: mediumseagreen;
 }
+/**************** Portfolio - flip card *******************/
 
 .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
   transition-timing-function: linear;
   width: 100%;
-  height: 100%;
+  height: 250px;
   margin: 0;
   display: flex;
 }
@@ -99,32 +102,24 @@
   transform: rotateY(0deg);
 }
 
-/**************** Footer *******************/
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
+/**************** Resume *******************/
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+}
+
+/**************** Footer2 *******************/
+.footer-cont2 {
   background: black;
+  height: 200px;
 }
 
 .icon {
   color: white;
+  font-size: 25px;
 }
+
 .footer-copyright {
   color: white;
 }
-
-/* @media only screen and (max-width: 750px) {
-  .wrapper {
-    height: 500px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  .wrapper {
-    height: 200px;
-    width: 420px;
-  }
-} */
