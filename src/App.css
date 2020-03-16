@@ -7,8 +7,8 @@
 .text-cont {
   font-size: 30px;
   font-weight: 300;
-  color: white;
-  background: black;
+  color: black;
+  background: white;
   text-align: center;
   margin: auto;
   width: 100%;
@@ -32,7 +32,7 @@
   font-family: "Reenie Beanie";
 }
 .f-style6 {
-  font-family: "Lacquer";
+  font-family: "Anton";
 }
 .f-style7 {
   font-family: "Satisfy";
@@ -44,24 +44,24 @@
 .portfolio-word {
   font-weight: 800;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 .skills-word {
   font-weight: 800;
   font-size: 50px;
-  color: white;
-  border: solid white 1px;
+  color: black;
+  border: solid black 1px;
   padding: 2px;
 }
 .resume-word {
   font-weight: 800;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 .contact-word {
   font-weight: 800;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 
 .welcome {
@@ -73,13 +73,18 @@
   color: mediumseagreen;
 }
 /**************** Portfolio - flip card *******************/
+.portfolio-wrapper {
+  background-color: white;
+  width: 100%;
+  padding-top: 1px;
+}
 
 .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
   transition-timing-function: linear;
   width: 100%;
-  height: 250px;
+  height: 270px;
   margin: 0;
   display: flex;
 }
@@ -102,6 +107,30 @@
   transform: rotateY(0deg);
 }
 
+.card-text {
+  font-size: 12px;
+}
+
+.portfolio-title {
+  font-family: "Reenie Beanie";
+  margin-top: 30px;
+  color: black;
+  font-size: 80px;
+}
+.portfolio-title h1 {
+  font-size: 80px;
+}
+.portfolio-back {
+  font-family: "Reenie Beanie";
+  color: black;
+  font-size: 50px;
+}
+.portfolio-back:hover {
+  font-family: "Satisfy";
+  color: black;
+  font-size: 50px;
+}
+
 /**************** Resume *******************/
 
 .modal-image {
@@ -110,16 +139,34 @@
 }
 
 /**************** Footer2 *******************/
-.footer-cont2 {
+/* footer {
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
   background: black;
+  /* background-color: #282c34;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}  */
+
+.footer-cont2 {
+  background: white;
   height: 200px;
 }
 
 .icon {
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
 .footer-copyright {
-  color: white;
+  color: rgb(180, 170, 170);
+}
+
+.foo {
+  padding-top: 90px;
 }

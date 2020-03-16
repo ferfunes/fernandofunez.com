@@ -42,7 +42,7 @@ export const Resume = () => {
               </div>
               <div className="modal-body">
                 {" "}
-                <img className="modal-image" src={myResume} />{" "}
+                <img className="modal-image" src={myResume} alt="#" />{" "}
               </div>
               <div className="modal-footer">
                 <a href={myResume} download="MyResume" download>
@@ -67,7 +67,6 @@ export const Resume = () => {
           Home
         </button>
       </Link>
-      <Footer />
     </div>
   );
 };

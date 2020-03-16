@@ -5,9 +5,9 @@ import TypeIt from "typeit-react";
 
 export const Home = () => {
   return (
-    <div ClassName="main-cont container-fluid">
-      <div className="row">
-        <div className="text-cont">
+    <div ClassName="main-cont container-fluid ">
+      <div className="row ">
+        <div className="text-cont ">
           <div className="welcome">
             <TypeIt
               options={{

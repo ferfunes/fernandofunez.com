@@ -9,7 +9,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 export const App = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0 m-0">
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
