@@ -2,22 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Footer } from "./footer.js";
 import TypeIt from "typeit-react";
+import Fernando_A_Funez_Resume from "../../src/images/Fernando_A_Funez_Resume.jpg";
 
 export const Home = () => {
   return (
     <div ClassName="main-cont container-fluid ">
-      <div className="row ">
+      <div className="row p-0 m-0">
         <div className="text-cont ">
-          <div className="welcome">
-            <TypeIt
-              options={{
-                strings: ["WELCOME TO MY SITE..."],
-                speed: 200,
-                waitUntilVisible: true,
-                loop: true
-              }}
-            />
-          </div>
           <span className="f-style1">Lorem ipsum dolor sit amet</span>,
           <span className="f-style2">
             consectetur adipiscing elit.{" "}
@@ -47,13 +38,69 @@ export const Home = () => {
           <span className="f-style5">Lorem ipsum dolor sit amet</span>
           <span className="f-style6">
             , consectetur{" "}
-            <Link
-              to="/resume"
-              className="resume-word"
-              style={{ textDecoration: "none" }}
-            >
-              RESUME
-            </Link>{" "}
+            <span className="modal-cont ">
+              <button
+                type="button"
+                className="modal-button btn btn-primary"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                RESUME
+              </button>
+
+              <div
+                className="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-lg" role="document">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="exampleModalLabel">
+                        Resume
+                      </h5>
+                      <button
+                        type="button"
+                        className="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div className="modal-body">
+                      {" "}
+                      <img
+                        className="modal-image"
+                        src={Fernando_A_Funez_Resume}
+                        alt="#"
+                      />{" "}
+                    </div>
+                    <div className="modal-footer">
+                      <a
+                        href={Fernando_A_Funez_Resume}
+                        download="MyResume"
+                        download
+                      >
+                        <button type="button" className="btn btn-secondary">
+                          Download Resume
+                        </button>
+                      </a>
+                      <button
+                        type="button"
+                        className="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </span>
             elit. Maecenas ut
           </span>
           <br />

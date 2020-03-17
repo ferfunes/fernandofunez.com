@@ -68,7 +68,7 @@
   font-size: 60px;
   margin-bottom: 40px;
   margin-top: -90px;
-  font-family: "Monoton";
+  font-family: "Spartan";
   word-spacing: 20px;
   color: mediumseagreen;
 }
@@ -112,23 +112,27 @@
 }
 
 .portfolio-title {
-  font-family: "Reenie Beanie";
+  font-family: "Spartan";
   margin-top: 30px;
   color: black;
-  font-size: 80px;
 }
 .portfolio-title h1 {
-  font-size: 80px;
+  font-size: 50px;
+}
+.back-button {
+  margin-bottom: 30px;
 }
 .portfolio-back {
-  font-family: "Reenie Beanie";
+  color: black;
+  font-size: 30px;
+}
+.portfolio-back:hover {
   color: black;
   font-size: 50px;
 }
-.portfolio-back:hover {
-  font-family: "Satisfy";
-  color: black;
-  font-size: 50px;
+
+.portfolio-cont {
+  margin-bottom: 150px !important;
 }
 
 /**************** Resume *******************/
@@ -137,29 +141,27 @@
   width: 100%;
   height: 100%;
 }
+.modal-button {
+  border: none !important;
+  background-color: white !important;
+  color: black !important;
+  font-weight: 800 !important;
+  font-size: 50px !important;
+}
 
 /**************** Footer2 *******************/
-/* footer {
-  position: fixed;
-  display: inline-block;
-  bottom: 0;
-  width: 100%;
-  background: black;
-  /* background-color: #282c34;
-  height: 3.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}  */
 
 .footer-cont2 {
-  background: white;
-  height: 200px;
+  background: black;
+  height: 100px;
+  position: fixed;
+  margin-left: 60px;
+  bottom: 0;
+  width: 100%;
 }
 
 .icon {
-  color: black;
+  color: white;
   font-size: 25px;
 }
 
@@ -168,5 +170,5 @@
 }
 
 .foo {
-  padding-top: 90px;
+  padding-top: 10px;
 }

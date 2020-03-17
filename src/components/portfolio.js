@@ -1,30 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Footer } from "../components/footer.js";
-import wander_tracker_front from "../images/wander_tracker_front.png";
-import lumina_si_umbra_front from "../images/lumina_si_umbra_front.png";
+import wanderTrackerLogo from "../images/wanderTrackerLogo.png";
+import luminaLogo from "../images/luminaLogo.jpg";
 import email_template from "../images/email_template.png";
 
 export const Portfolio = () => {
   return (
-    <div className="portfolio-wrapper">
+    <div className=" portfolio-wrapper">
       <div className="portfolio-title text-center">
         <h1>PORTFOLIO</h1>
       </div>
-      <div className="button  text-center mb-5">
+      <div className="back-button  text-center ">
         <Link style={{ textDecoration: "none" }} to="/">
-          <span className="portfolio-back">Home</span>
+          <span className="portfolio-back">
+            <i class="fas fa-chevron-left"></i>
+          </span>
         </Link>
       </div>
-      <div className="portfolio-cont container mt-5">
+      <div className="portfolio-cont container ">
         <div className="row">
           <div className="meh col-sm-12 col-m-6 col-lg-4 mb-2">
             <div className="card card-flip ">
-              <div className="card-front">
+              <div className="card-front d-flex align-items-center">
                 <img
-                  className="portfolio-image img-fluid"
+                  className="portfolio-image img-fluid "
                   alt="travel app"
-                  src={wander_tracker_front}
+                  src={wanderTrackerLogo}
                 />
               </div>
               <div className="card-back bg-white">
@@ -57,11 +59,11 @@ export const Portfolio = () => {
           </div>
           <div className="col-sm-12 col-m-6 col-lg-4 mb-2">
             <div className="card card-flip ">
-              <div className="card-front">
+              <div className="card-front ">
                 <img
                   className="img-fluid"
                   alt="Graphic Designer Portfolio"
-                  src={lumina_si_umbra_front}
+                  src={luminaLogo}
                 />
               </div>
               <div className="card-back bg-white">
@@ -130,11 +132,11 @@ export const Portfolio = () => {
 
           <div className="col-sm-12 col-m-6 col-lg-4 mb-2">
             <div className="card card-flip ">
-              <div className="card-front">
+              <div className="card-front d-flex align-items-center">
                 <img
                   className="portfolio-image img-fluid"
                   alt="#"
-                  src={wander_tracker_front}
+                  src={wanderTrackerLogo}
                 />
               </div>
               <div className="card-back bg-white">
@@ -167,12 +169,8 @@ export const Portfolio = () => {
           </div>
           <div className="col-sm-12 col-m-6 col-lg-4 mb-2">
             <div className="card card-flip ">
-              <div className="card-front">
-                <img
-                  className="img-fluid"
-                  alt="#"
-                  src={lumina_si_umbra_front}
-                />
+              <div className="card-front ">
+                <img className="img-fluid" alt="#" src={luminaLogo} />
               </div>
               <div className="card-back bg-white">
                 <div className="card-body">

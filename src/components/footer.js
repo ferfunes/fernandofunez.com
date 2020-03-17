@@ -1,9 +1,9 @@
 import React from "react";
 
 export const Footer = () => (
-  <footer className="container-fluid footer mt-0  p-0  text-center   ">
-    <div className="footer-cont2 row justify-content-center m-0 p-0">
-      <div className="foo col-md-5 text-center text-secondary ">
+  <footer className="container-fluid footer     ">
+    <div className="footer-cont2 row  justify-content-center ">
+      <div className="foo  text-center text-secondary ">
         <a
           href="https://github.com/ferfunes"
           target="_blank"
