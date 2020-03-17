@@ -161,8 +161,15 @@
 .card-deck {
   margin-top: 200px;
 }
-.skill-card1 {
-  width: 150px;
+.skill-card1,
+.skill-card2,
+.skill-card4 {
+  border: none !important;
+  width: 150px !important;
+}
+.skill-card3 {
+  width: 150px !important;
+  border: none !important;
 }
 
 /**************** Resume *******************/
