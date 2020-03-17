@@ -20,7 +20,7 @@ export const Portfolio = () => {
       </div>
       <div className="portfolio-cont container ">
         <div className="row">
-          <div className="meh col-sm-12 col-m-6 col-lg-4 mb-2">
+          <div className=" col-sm-12 col-m-6 col-lg-4 mb-2">
             <div className="card card-flip ">
               <div className="card-front d-flex align-items-center">
                 <img

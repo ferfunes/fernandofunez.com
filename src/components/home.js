@@ -9,6 +9,16 @@ export const Home = () => {
     <div ClassName="main-cont container-fluid ">
       <div className="row p-0 m-0">
         <div className="text-cont ">
+          <div className="welcome">
+            <TypeIt
+              options={{
+                strings: ["Hi There! I'm Fernando Funez..."],
+                speed: 200,
+                waitUntilVisible: true,
+                loop: false
+              }}
+            />
+          </div>
           <span className="f-style1">Lorem ipsum dolor sit amet</span>,
           <span className="f-style2">
             consectetur adipiscing elit.{" "}

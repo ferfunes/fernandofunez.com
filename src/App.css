@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/**************** Text Lines *******************/
+/**************** Home Text Lines *******************/
 .text-cont {
   font-size: 30px;
   font-weight: 300;
@@ -70,7 +70,7 @@
   margin-top: -90px;
   font-family: "Spartan";
   word-spacing: 20px;
-  color: mediumseagreen;
+  color: black;
 }
 /**************** Portfolio - flip card *******************/
 .portfolio-wrapper {
@@ -133,6 +133,36 @@
 
 .portfolio-cont {
   margin-bottom: 150px !important;
+}
+
+/**************** Skills *******************/
+.skills-wrapper {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 900px;
+  padding-top: 1px;
+}
+.skills-title {
+  font-family: "Spartan";
+  margin-top: 30px;
+  color: black;
+}
+.skills-title h1 {
+  font-size: 50px;
+}
+.skills-back {
+  color: black;
+  font-size: 30px;
+}
+.skills-back:hover {
+  color: black;
+  font-size: 50px;
+}
+.card-deck {
+  margin-top: 200px;
+}
+.skill-card1 {
+  width: 150px;
 }
 
 /**************** Resume *******************/
