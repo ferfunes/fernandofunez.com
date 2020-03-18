@@ -139,7 +139,7 @@
 .skills-wrapper {
   background-color: white;
   width: 100%;
-  margin-bottom: 900px;
+  margin-bottom: 400px;
   padding-top: 1px;
 }
 .skills-title {
@@ -163,13 +163,9 @@
 }
 .skill-card1,
 .skill-card2,
-.skill-card4 {
-  border: none !important;
-  width: 150px !important;
-}
 .skill-card3 {
-  width: 150px !important;
   border: none !important;
+  width: 80px !important;
 }
 
 /**************** Resume *******************/
@@ -208,4 +204,15 @@
 
 .foo {
   padding-top: 10px;
+}
+
+/**************** Media Queries *******************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 414px) {
+  .skill-card1,
+  .skill-card2,
+  .skill-card3 {
+    width: 150px !important;
+  }
 }
