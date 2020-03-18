@@ -17,6 +17,11 @@ export const Contact = () => {
             </span>
           </Link>
         </div>
+        <div className="contact-info text-center mt-5">
+          <h2>Fernando Funez</h2>
+          <h3>+1 (786)718.8966</h3>
+          <h3>ferfunezdev@gmail.com</h3>
+        </div>
 
         <div className="contact-cont container ">
           <div className="footer-portfolio container-fluid">
@@ -64,17 +69,19 @@ export const Contact = () => {
                       </div>
                       <div className="form-group">
                         <label for="inputMessage">Comment</label>
-                        <input
+                        <textarea
                           type="text"
                           name="comment"
-                          className="form-control"
+                          className="form-control comment-input"
                           required
                         />
                       </div>
-                      <div className="text-center">
-                        <button type="submit" className="btn btn-primary">
-                          <i className="fa fa-paper-plane"></i> Send
-                        </button>
+                      <div className=" row d-flex justify-content-center">
+                        <div className="text-center">
+                          <button type="submit" className=" btn btn-primary">
+                            <i className="fa fa-paper-plane"></i> Send
+                          </button>
+                        </div>
                       </div>
                     </form>
                   </div>
