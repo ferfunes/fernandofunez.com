@@ -15,7 +15,6 @@ export const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Skills" component={Skills} />
-
           <Route path="/Contact" component={Contact} />
         </Switch>
       </BrowserRouter>
