@@ -168,6 +168,76 @@
   width: 80px !important;
 }
 
+/**************** Contact *******************/
+.contact-wrapper {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 400px;
+  padding-top: 1px;
+}
+.contact-title {
+  font-family: "Spartan";
+  margin-top: 30px;
+  color: black;
+}
+.contact-title h1 {
+  font-size: 50px;
+}
+.contact-back {
+  color: black;
+  font-size: 30px;
+}
+.contact-back:hover {
+  color: black;
+  font-size: 50px;
+}
+
+.contact-form {
+  padding: 50px;
+  margin: 30px auto;
+}
+.contact-form h1 {
+  font-size: 42px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-form .form-control,
+.contact-form .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.contact-form .form-control {
+  border-color: #808080;
+}
+.contact-form .form-control:focus {
+  border-color: #808080;
+  box-shadow: 0 0 8px #808080;
+}
+.contact-form .btn-primary {
+  min-width: 250px;
+  color: #808080;
+  background: #000;
+  margin-top: 20px;
+  border: none;
+}
+.contact-form .btn-primary:hover {
+  color: #fff;
+}
+.contact-form .btn-primary i {
+  margin-right: 5px;
+}
+.contact-form label {
+  opacity: 0.9;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.bs-example {
+  margin: 20px;
+}
 /**************** Resume *******************/
 
 .modal-image {

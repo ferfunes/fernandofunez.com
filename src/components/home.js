@@ -120,7 +120,7 @@ export const Home = () => {
               className="contact-word"
               style={{ textDecoration: "none" }}
             >
-              CONTACT
+              GET IN TOUCH
             </Link>{" "}
             ipsum dolor sit amet, consectetur
           </spam>{" "}

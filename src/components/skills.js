@@ -29,7 +29,7 @@ export const Skills = () => {
         </Link>
       </div>
 
-      <div className="card-cont container d-flex justify-content-center mb-5">
+      <div className="card-cont container d-flex justify-content-center mb-5 mt-5">
         <div className="row justify-content-center">
           <div className="skill-card1 card  col-sm-2 col-lg-2">
             <img
