@@ -27,7 +27,7 @@ export const Home = () => {
               className=" portfolio-word"
               style={{ textDecoration: "none" }}
             >
-              PORTFOLIO
+              WORK
             </Link>{" "}
             ut
           </span>
@@ -69,9 +69,6 @@ export const Home = () => {
                 <div className="modal-dialog modal-lg" role="document">
                   <div className="modal-content">
                     <div className="modal-header">
-                      <h5 className="modal-title" id="exampleModalLabel">
-                        Resume
-                      </h5>
                       <button
                         type="button"
                         className="close"
@@ -115,6 +112,24 @@ export const Home = () => {
           </span>
           <br />
           <spam className="f-style7">
+            {" "}
+            ipsum dolor sit{" "}
+            <Link
+              to="/Portfolio"
+              className=" portfolio-word"
+              style={{ textDecoration: "none" }}
+            >
+              DJ
+            </Link>{" "}
+            amet, consectetur{" "}
+          </spam>{" "}
+          <spam className="f-style8">
+            adipiscing elit. Maecenas ut how jopo2
+          </spam>
+          <br />
+          <span className="f-style1">Lorem ipsum dolor sit amet</span>,
+          <span className="f-style2">
+            consectetur adipiscing elit.{" "}
             <Link
               to="/contact"
               className="contact-word"
@@ -122,9 +137,8 @@ export const Home = () => {
             >
               GET IN TOUCH
             </Link>{" "}
-            ipsum dolor sit amet, consectetur
-          </spam>{" "}
-          <spam className="f-style8">adipiscing elit. Maecenas ut</spam>
+          </span>
+          <br />
         </div>
         <Footer />
       </div>
