@@ -9,7 +9,6 @@ export const Contact = () => {
       <div className=" contact-wrapper">
         <div className="contact-title text-center">
           <h1>GET IN TOUCH</h1>
-          <h1>GET IN TOUCH</h1>
         </div>
         <div className="back-button  text-center ">
           <Link style={{ textDecoration: "none" }} to="/">
