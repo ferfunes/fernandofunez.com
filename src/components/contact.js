@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Footer } from "../components/footer.js";
-import wanderTrackerLogo from "../images/wanderTrackerLogo.png";
 
 export const Contact = () => {
   return (

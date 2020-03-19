@@ -115,7 +115,7 @@ export const Home = () => {
             {" "}
             ipsum dolor sit{" "}
             <Link
-              to="/Portfolio"
+              to="/Dj"
               className=" portfolio-word"
               style={{ textDecoration: "none" }}
             >

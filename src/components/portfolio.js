@@ -9,7 +9,7 @@ export const Portfolio = () => {
   return (
     <div className=" portfolio-wrapper">
       <div className="portfolio-title text-center">
-        <h1>PORTFOLIO</h1>
+        <h1>Work</h1>
       </div>
       <div className="back-button  text-center ">
         <Link style={{ textDecoration: "none" }} to="/">

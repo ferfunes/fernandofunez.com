@@ -253,6 +253,30 @@
   color: black;
   font-size: 15px;
 }
+
+/**************** The Dj *******************/
+.dj-wrapper {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 400px;
+  padding-top: 1px;
+}
+.dj-title {
+  font-family: "Spartan";
+  margin-top: 30px;
+  color: black;
+}
+.dj-title h1 {
+  font-size: 50px;
+}
+.dj-back {
+  color: black;
+  font-size: 30px;
+}
+.dj-back:hover {
+  color: black;
+  font-size: 50px;
+}
 /**************** Resume *******************/
 
 .modal-image {
