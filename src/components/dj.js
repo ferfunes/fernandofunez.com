@@ -21,7 +21,7 @@ export const Dj = () => {
         <div className="contact-info container text-center mt-5 mb-5">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            sagittis urna dui, nec fermentum risus pretium a. Vivamus pretium
+            sagittis urna dui, nec fermentum risus  a. Vivamus pretium
             sagittis quam id congue. Sed dignissim libero velit, in tempus nunc
             tempus vel. Cras id tempor sem, eu efficitur ipsum. Cras ac
             efficitur ligula, at pharetra felis. Donec ornare placerat arcu.
