@@ -5,22 +5,23 @@
 
 /**************** Home Text Lines *******************/
 .text-cont {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
-  color: black;
+  color: grey;
   background: white;
   text-align: center;
   margin: auto;
   width: 100%;
   padding-top: 200px;
   padding-bottom: 300px;
+  line-height: 70px;
 }
 
 .f-style1 {
-  font-family: "Bungee Inline";
+  font-family: "Shadows Into Light", cursive;
 }
 .f-style2 {
-  font-family: "Indie Flower";
+  font-family: "Amatic SC", cursive;
 }
 .f-style3 {
   font-family: "Oxanium";
@@ -40,10 +41,13 @@
 .f-style8 {
   font-family: "Anton";
 }
+.f-style10 {
+  font-family: "Roboto", sans-serif;
+}
 
 .portfolio-word {
   font-weight: 800;
-  font-size: 50px;
+  font-size: 70px;
   color: black;
 }
 .skills-word {
@@ -53,13 +57,14 @@
   border: solid black 1px;
   padding: 2px;
 }
-.resume-word {
+
+.contact-word {
   font-weight: 800;
   font-size: 50px;
   color: black;
 }
-.contact-word {
-  font-weight: 800;
+.dj-word {
+  font-weight: 1000;
   font-size: 50px;
   color: black;
 }
@@ -288,13 +293,15 @@
   background-color: white !important;
   color: black !important;
   font-weight: 800 !important;
-  font-size: 50px !important;
+  font-size: 60px !important;
 }
-
+.resume-text {
+  font-family: "Spartan";
+}
 /**************** Footer2 *******************/
 
 .footer-cont2 {
-  background: black;
+  background: white;
   height: 100px;
   position: fixed;
   margin-left: 60px;
@@ -303,12 +310,12 @@
 }
 
 .icon {
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
 .footer-copyright {
-  color: rgb(180, 170, 170);
+  color: black;
 }
 
 .foo {

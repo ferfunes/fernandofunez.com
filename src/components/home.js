@@ -6,9 +6,9 @@ import Fernando_A_Funez_Resume from "../../src/images/Fernando_A_Funez_Resume.jp
 
 export const Home = () => {
   return (
-    <div ClassName="main-cont container-fluid ">
+    <div ClassName="main-cont container ">
       <div className="row p-0 m-0">
-        <div className="text-cont ">
+        <div className="text-cont ml-4 mr-4">
           <div className="welcome">
             <TypeIt
               options={{
@@ -19,43 +19,47 @@ export const Home = () => {
               }}
             />
           </div>
-          <span className="f-style1">Lorem ipsum dolor sit amet</span>,
+          <span className="f-style1">
+            Full stack web developer focused on crafting great web experiences.
+          </span>
           <span className="f-style2">
-            consectetur adipiscing elit.{" "}
+            {" "}
+            My{" "}
             <Link
-              to="/Portfolio"
+              to="/Skills"
               className=" portfolio-word"
               style={{ textDecoration: "none" }}
             >
-              WORK
+              SKILLS
             </Link>{" "}
-            ut
+            allow me to create
+            <br />
+            beautifully designed, intuitive, and functional websites /
+            applications.{" "}
           </span>
-          <br />
           <span className="f-style3">
-            Lorem ipsum dolor sit{" "}
+            My ability to adapt to the latest and most in <br /> demand
+            technologies is reflected on my{" "}
             <Link
-              to="skills"
+              to="Portfolio"
               className="skills-word"
               style={{ textDecoration: "none" }}
             >
-              SKILLS
+              PROJECTS
             </Link>
-            , consectetur adipiscing
           </span>{" "}
-          <span className="f-style4">elit. Maecenas ut</span>
+          <span className="f-style5">. When all of this gets combined,</span>
           <br />
-          <span className="f-style5">Lorem ipsum dolor sit amet</span>
-          <span className="f-style6">
-            , consectetur{" "}
+          <span className="f-style5">it translates on to a killer</span>
+          <span className="f-style5">
             <span className="modal-cont ">
               <button
                 type="button"
-                className="modal-button btn btn-primary"
+                className="resume-word modal-button btn btn-primary"
                 data-toggle="modal"
                 data-target="#exampleModal"
               >
-                RESUME
+                RESUME.
               </button>
 
               <div
@@ -92,13 +96,16 @@ export const Home = () => {
                         download="MyResume"
                         download
                       >
-                        <button type="button" className="btn btn-secondary">
+                        <button
+                          type="button"
+                          className="resume-text btn btn-secondary"
+                        >
                           Download Resume
                         </button>
                       </a>
                       <button
                         type="button"
-                        className="btn btn-secondary"
+                        className="resume-text btn btn-secondary"
                         data-dismiss="modal"
                       >
                         Close
@@ -108,34 +115,34 @@ export const Home = () => {
                 </div>
               </div>
             </span>
-            elit. Maecenas ut
+            <span className="f-style2">
+              Btw, did I mentioned that I love photography, world travel and to
+              make things even better
+            </span>
           </span>
           <br />
-          <spam className="f-style7">
+          <spam className="f-style2">
             {" "}
-            ipsum dolor sit{" "}
+            I am a professional{" "}
             <Link
               to="/Dj"
-              className=" portfolio-word"
+              className=" dj-word"
               style={{ textDecoration: "none" }}
             >
-              DJ
+              DJ.
             </Link>{" "}
-            amet, consectetur{" "}
           </spam>{" "}
-          <spam className="f-style8">
-            adipiscing elit. Maecenas ut how jopo2
-          </spam>
-          <br />
-          <span className="f-style1">Lorem ipsum dolor sit amet</span>,
-          <span className="f-style2">
-            consectetur adipiscing elit.{" "}
+          <spam className="f-style1">Now that you know me,</spam>
+          <span className="f-style1">
+            {" "}
+            I would like to know how can I help you!
             <Link
               to="/contact"
               className="contact-word"
               style={{ textDecoration: "none" }}
             >
-              GET IN TOUCH
+              {" "}
+              <u>GET IN TOUCH.</u>
             </Link>{" "}
           </span>
           <br />
