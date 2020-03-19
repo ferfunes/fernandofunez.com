@@ -20,16 +20,8 @@ export const Dj = () => {
         </div>
         <div className="contact-info container text-center mt-5 mb-5">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            sagittis urna dui, nec fermentum risus pretium a. Vivamus pretium
-            sagittis quam id congue. Sed dignissim libero velit, in tempus nunc
-            tempus vel. Cras id tempor sem, eu efficitur ipsum. Cras ac
-            efficitur ligula, at pharetra felis. Donec ornare placerat arcu.
-            Duis eget lectus scelerisque, rutrum neque eu, vehicula ipsum.
-            Nullam vestibulum imperdiet tellus at efficitur. Proin ut malesuada
-            dui. Nulla facilisi. In molestie vehicula dui ac feugiat.
-            Suspendisse ornare ipsum magna, a ultricies erat ornare id. Proin
-            molestie in dolor et finibus.
+            Vinyl lover, bass addict, from House to Techno. <br />
+            Enjoy the Show!
           </p>
         </div>
         <div className="player-wrapper ml-5 mr-5">

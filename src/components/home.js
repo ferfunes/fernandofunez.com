@@ -12,7 +12,7 @@ export const Home = () => {
           <div className="welcome">
             <TypeIt
               options={{
-                strings: ["Hi There! I'm Fernando Funez..."],
+                strings: ["Hi There! I'm Fernando Funez"],
                 speed: 200,
                 waitUntilVisible: true,
                 loop: false
@@ -21,36 +21,35 @@ export const Home = () => {
           </div>
           <span className="f-style1">
             Full stack web developer focused on crafting great web experiences.
+            <br />
           </span>
           <span className="f-style2">
-            {" "}
             My{" "}
             <Link
               to="/Skills"
-              className=" portfolio-word"
+              className=" skills-word"
               style={{ textDecoration: "none" }}
             >
               SKILLS
             </Link>{" "}
-            allow me to create
-            <br />
-            beautifully designed, intuitive, and functional websites /
-            applications.{" "}
+            allow me to create beautifully designed, intuitive, and functional
+            websites.{" "}
           </span>
           <span className="f-style3">
-            My ability to adapt to the latest and most in <br /> demand
+            My ability to adapt <br /> to the latest and most in demand
             technologies is reflected on my{" "}
             <Link
               to="Portfolio"
-              className="skills-word"
+              className="projects-word"
               style={{ textDecoration: "none" }}
             >
-              PROJECTS
+              PROJECTS.
             </Link>
-          </span>{" "}
-          <span className="f-style5">. When all of this gets combined,</span>
+          </span>
           <br />
-          <span className="f-style5">it translates on to a killer</span>
+          <span className="f-style5">
+            When all of this gets combined, it translates on to a killer
+          </span>
           <span className="f-style5">
             <span className="modal-cont ">
               <button
@@ -116,24 +115,24 @@ export const Home = () => {
               </div>
             </span>
             <span className="f-style2">
-              Btw, did I mentioned that I love photography, world travel and to
-              make things even better
+              Btw, did I mentioned that I love photography,
             </span>
           </span>
           <br />
           <spam className="f-style2">
             {" "}
-            I am a professional{" "}
+            I am a professional
             <Link
               to="/Dj"
               className=" dj-word"
               style={{ textDecoration: "none" }}
             >
-              DJ.
+              DJ,
             </Link>{" "}
+            and world traveler.{" "}
           </spam>{" "}
-          <spam className="f-style1">Now that you know me,</spam>
-          <span className="f-style1">
+          <spam className="f-style10">Now that you know me,</spam>
+          <span className="f-style10">
             {" "}
             I would like to know how can I help you!
             <Link
@@ -141,11 +140,9 @@ export const Home = () => {
               className="contact-word"
               style={{ textDecoration: "none" }}
             >
-              {" "}
-              <u>GET IN TOUCH.</u>
-            </Link>{" "}
+              GET IN TOUCH.
+            </Link>
           </span>
-          <br />
         </div>
         <Footer />
       </div>
