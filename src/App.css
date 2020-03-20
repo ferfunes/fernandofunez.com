@@ -18,31 +18,21 @@
 }
 
 .f-style1 {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", monospace;
 }
 .f-style2 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Amatic SC", monospace;
 }
 .f-style3 {
-  font-family: "Shadows Into Light Two", cursive;
+  font-family: "Shadows Into Light Two", monospace;
 }
-.f-style4 {
-  font-family: "Spartan";
-}
+
 .f-style5 {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", monospace;
 }
-.f-style6 {
-  font-family: "Anton";
-}
-.f-style7 {
-  font-family: "Satisfy";
-}
-.f-style8 {
-  font-family: "Anton";
-}
+
 .f-style10 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Amatic SC", monospace;
 }
 
 .skills-word {
@@ -81,12 +71,12 @@
   color: #c49102;
 }
 
-.welcome {
+.welcome h1 {
   font-size: 55px;
   margin-bottom: 30px;
   margin-top: -150px;
   font-family: "Spartan";
-  font-family: "Poiret One", cursive;
+  font-family: "Poiret One", monospace;
   font-weight: 800;
   word-spacing: -5px;
   color: black;
@@ -131,7 +121,7 @@
 }
 
 .portfolio-title {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
   margin-top: 30px;
   color: black;
 }
@@ -173,7 +163,7 @@
   padding-top: 1px;
 }
 .skills-title {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
   margin-top: 30px;
   color: black;
 }
@@ -206,7 +196,7 @@
   padding-top: 1px;
 }
 .contact-title {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
   margin-top: 30px;
   color: black;
 }
@@ -274,12 +264,12 @@
   height: 160px !important;
 }
 .contact-info h2 {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
   color: black;
   font-size: 20px;
 }
 .contact-info h3 {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
   color: black;
   font-size: 15px;
 }
@@ -292,7 +282,7 @@
   padding-top: 1px;
 }
 .dj-title {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
   margin-top: 30px;
   color: black;
 }
@@ -306,6 +296,9 @@
 .dj-back:hover {
   color: black;
   font-size: 50px;
+}
+.dj-text {
+  font-family: "Spartan", monospace;
 }
 /**************** Resume *******************/
 
@@ -321,7 +314,7 @@
   font-size: 50px !important;
 }
 .resume-text {
-  font-family: "Spartan";
+  font-family: "Spartan", monospace;
 }
 .resume-word:hover {
   color: #c49102;
@@ -355,7 +348,7 @@
 .copyright-text:hover {
   color: #c49102;
 }
-/**************** Media Queries *******************/
+/**************** Media Queries for skill cards*******************/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 414px) {

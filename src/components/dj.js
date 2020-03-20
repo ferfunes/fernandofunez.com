@@ -19,7 +19,7 @@ export const Dj = () => {
           </Link>
         </div>
         <div className="contact-info container text-center mt-5 mb-5">
-          <p>
+          <p className="dj-text">
             Vinyl lover, bass addict, from House to Techno. <br />
             Enjoy the Show!
           </p>

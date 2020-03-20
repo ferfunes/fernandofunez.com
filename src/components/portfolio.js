@@ -138,7 +138,7 @@ export const Portfolio = () => {
               <div className="card-front d-flex align-items-center">
                 <img
                   className="portfolio-image-ff img-fluid"
-                  alt="#"
+                  alt="fernando funez website"
                   src={fernando_funez_com}
                 />
               </div>
@@ -166,7 +166,11 @@ export const Portfolio = () => {
           <div className="col-sm-12 col-m-6 col-lg-4 mb-2">
             <div className="card card-flip ">
               <div className="card-front ">
-                <img className="img-fluid" alt="#" src={pig_dice_game} />
+                <img
+                  className="img-fluid"
+                  alt="pig game using javascript"
+                  src={pig_dice_game}
+                />
               </div>
               <div className="card-back bg-white">
                 <div className="card-body">
@@ -201,7 +205,7 @@ export const Portfolio = () => {
               <div className="card-front ">
                 <img
                   className="portfolio-image-liferoa img-fluid"
-                  alt="#"
+                  alt="lifeinroatan.com"
                   src={life_in_roatan}
                 />
               </div>

@@ -10,14 +10,16 @@ export const Home = () => {
       <div className="row p-0 m-0">
         <div className="text-cont ml-4 mr-4">
           <div className="welcome">
-            <TypeIt
-              options={{
-                strings: ["Hi There! I'm Fernando Funez"],
-                speed: 200,
-                waitUntilVisible: true,
-                loop: false
-              }}
-            />
+            <h1>
+              <TypeIt
+                options={{
+                  strings: ["Hi There! I'm Fernando Funez"],
+                  speed: 200,
+                  waitUntilVisible: true,
+                  loop: false
+                }}
+              />
+            </h1>
           </div>
           <span className="f-style1">
             Full stack web developer focused on crafting great web experiences.
