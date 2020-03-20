@@ -27,7 +27,7 @@ export const Footer = () => (
         </a>
         <div className="footer-copyright mt-3">
           © 2020 Copyright:
-          <a className="copyright-text" href="https://mdbootstrap.com/" alt>
+          <a className="copyright-text" href="https://mdbootstrap.com/">
             {" "}
             fernandofunez.com
           </a>
